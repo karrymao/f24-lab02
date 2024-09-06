@@ -1,7 +1,7 @@
 import { Shape } from "./shape.js";
 
 class Circle implements Shape {
-    radius: number;
+    private radius: number;
     constructor(radius: number) {
         this.radius = radius;
     }
